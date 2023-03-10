@@ -1,0 +1,32 @@
+.container {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 50px;
+  z-index: 100;
+  background-color: black;
+}
+
+.header-logo,
+.user-img {
+  height: 5vh;
+  object-fit: contain;
+}
+
+.user-img {
+  border-radius: 5%;
+  margin-left: 10px;
+}
+
+.header-logo {
+  filter: contrast(150%);
+  height: 7vh;
+}
+
